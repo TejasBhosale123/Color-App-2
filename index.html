@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> Color App 2</title>
+    </head>
+
+    <body>
+
+        <script>
+           
+           function changeColor(){
+            let color = ["red","lightblue","pink","orange","purple"]
+            let r = parseInt(Math.random()*color.length)
+            document.body.style.backgroundColor=color[r];
+
+           }
+
+            setInterval(changeColor,5000)     
+       
+
+
+            
+        </script>
+        
+
+    </body>
+</html>
